@@ -1,0 +1,9 @@
+
+.home__cards {
+    padding: 2.4rem 10%;
+    display: flex;
+}
+
+.home__cards > :not(:last-child) {
+    margin-right: 2.4rem;
+}

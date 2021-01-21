@@ -1,0 +1,30 @@
+.card__image {
+  width: 150px;
+  height: 225px;
+  background-color: var(--color-secondary-dark);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+}
+
+.card__image > img {
+  object-fit: cover;
+  max-width: 150px;
+  max-height: 225px;
+
+}
+.card__label {
+  position: absolute;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  color: white;
+}
+
+.card__title {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
